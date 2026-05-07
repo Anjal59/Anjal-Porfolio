@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anjal K | Python & Django Developer</title>
+    <meta name="description" content="Portfolio of Anjal K, a passionate Python & Django developer building scalable web apps and automation tools.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Remix/FontAwesome Icons (CDNJ) -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Canvas for Particle Background -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <nav class="navbar">
+        <a href="#" class="logo">A<span>.K</span></a>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="hamburger">
+            <i class="ri-menu-line"></i>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero fade-up">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <p class="greeting">Hello, I'm</p>
+                    <h1 class="name">Anjal <span>K</span></h1>
+                    <h2 class="title"><span id="typewriter"></span><span class="cursor">|</span></h2>
+                    <p class="subtitle">Passionate about building scalable web apps and automation tools.</p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+                <!-- Spline 3D Visual -->
+                <div class="hero-visual">
+                    <div class="profile-wrapper">
+                        <img src="images/anjal.png" alt="Anjal K" class="profile-image">
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <p>Scroll Down</p>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="section-heading px-re">
+                <h2 class="gsap-rev">About Me</h2>
+                <div class="line"></div>
+            </div>
+            <div class="about-container">
+                <div class="about-text gsap-left">
+                    <h3>Python & Django Developer <br><span>based in Kozhikode, Kerala.</span></h3>
+                    <p>I am a backend & frontend developer strongly focused on building performant and scalable web applications. With a primary stack revolving around Python and Django, I enjoy automating processes and crafting reliable digital systems.</p>
+                    <p>Currently, I am freelancing at <strong>Protonex</strong>, gaining hands-on experience by delivering robust tech solutions.</p>
+                    <div class="skills-wrapper">
+                       <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">Django REST Framework</span>
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Bootstrap</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">SQLite</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">REST APIs</span>
+                        <span class="skill-tag">Responsive Design</span>
+                        <span class="skill-tag">Frontend</span>
+                        <span class="skill-tag">Backend Development</span>
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">Deployment</span>
+                        <span class="skill-tag">Web Hosting</span>
+                        <span class="skill-tag">REST API</span>
+                    </div>
+                </div>
+                <div class="about-card-wrapper gsap-right">
+                    <div class="glass-card aesthetic-card">
+                        <i class="ri-code-box-line"></i>
+                        <h4>Clean Architecture</h4>
+                        <p>Focusing on scalable and maintainable solutions.</p>
+                    </div>
+                    <div class="glass-card aesthetic-card">
+                        <i class="ri-rocket-line"></i>
+                        <h4>Performance Driven</h4>
+                        <p>Creating fast and efficient user experiences.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="section-heading px-re">
+                <h2 class="gsap-rev">My Projects</h2>
+                <div class="line"></div>
+            </div>
+            <div class="projects-grid">
+                <!-- Project: Flight Routes Django -->
+                 <div class="project-card proj-anim">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="ri-folder-open-line folder-icon"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/Anjal59/linkedin-clone" target="_blank"><i class="ri-github-line"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Job Portal</h3>
+                        <p class="project-desc">A functional UI clone of LinkedIn to showcase complex layout building and state management.</p>
+                        <div class="project-tech">
+                            <span>PYTHON</span>
+                            <span>DJANGO</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card proj-anim">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="ri-folder-open-line folder-icon"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/Anjal59/school-management" target="_blank"><i class="ri-github-line"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">School Management</h3>
+                        <p class="project-desc">A comprehensive system developed to efficiently manage administrative functions and student records.</p>
+                        <div class="project-tech">
+                            <span>PYTHON</span>
+                            <span>DJANGO</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card proj-anim">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="ri-folder-open-line folder-icon"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/Anjal59/protonex" target="_blank"><i class="ri-github-line"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Protonex Landing Page</h3>
+                        <p class="project-desc">An impressive and fast landing page implementation created for the Protonex company.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card proj-anim">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="ri-folder-open-line folder-icon"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/Anjal59/Thejus-bakery" target="_blank"><i class="ri-github-line"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Thejus Bakery</h3>
+                        <p class="project-desc">An attractive business website built for a local bakery to showcase products and drive online engagement.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>Tailwind/CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card proj-anim">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="ri-folder-open-line folder-icon"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/Anjal59/flight-routes-django" target="_blank"><i class="ri-github-line"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Flight Routes System</h3>
+                        <p class="project-desc">Django Machine Test - A flight routes management system developed in Python and Django.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Django</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project: Task Activity Checker -->
+                <div class="project-card proj-anim">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="ri-folder-open-line folder-icon"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/Anjal59/tasks-activity-checker" target="_blank"><i class="ri-github-line"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Task Activity Checker</h3>
+                        <p class="project-desc">A Python-based utility application to analyze and monitor task activities efficiently.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project: Protonex -->
+                
+
+                <!-- Project 1 -->
+                
+
+                <!-- Project 3 -->
+                
+
+                <!-- Project 4 -->
+                <div class="project-card proj-anim">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="ri-folder-open-line folder-icon"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/Anjal59/Diet-planner" target="_blank"><i class="ri-github-line"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Diet Planner</h3>
+                        <p class="project-desc">A dynamic JS application helping users calculate and track basic dietary requirements efficiently.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>HTML</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card proj-anim">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="ri-folder-open-line folder-icon"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/Anjal59/library-management" target="_blank"><i class="ri-github-line"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Library Management</h3>
+                        <p class="project-desc">A minimal and clean platform for managing books and borrowing status.</p>
+                        <div class="project-tech">
+                            <span>PYTHON</span>
+                            <span>DJANGO</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="section-heading px-re">
+                <h2 class="gsap-rev">Get In Touch</h2>
+                <div class="line"></div>
+            </div>
+            <div class="contact-content gsap-up">
+                <p>I'm currently looking for new opportunities and collaborations. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                <a href="mailto:contact@anjal.com" class="btn btn-primary btn-lg">Say Hello</a>
+                
+                <div class="social-links">
+                    <a href="https://github.com/Anjal59" target="_blank" title="GitHub" class="social-icon"><i class="ri-github-fill"></i></a>
+                    <a href="https://linkedin.com/in/anjalk" target="_blank" title="LinkedIn" class="social-icon"><i class="ri-linkedin-fill"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Designed & Built by Anjal K</p>
+    </footer>
+
+    <!-- GSAP & ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
